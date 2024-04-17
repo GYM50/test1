@@ -1,0 +1,43 @@
+.kon{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+}
+.a1{
+    border-radius: 50px;
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    border: solid 3px rgb(252, 252, 255);
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+
+.a2{
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left:245px ;
+    top: -45px;
+    border-radius: 60px;
+    
+    animation: infinite 1s linear go;
+
+}
+@keyframes go{
+
+    from{
+        position: relative;
+        top: 0;
+    }
+    to{
+        position: relative;
+        top: 160px;
+        background-color: blue;
+    }
+
+}
